@@ -7,10 +7,66 @@
     text-align: center;
     
 }
+
+
+.header{
+    position: relative;
+    padding-bottom: 50px;
+}
+p{
+    color: rgb(13, 170, 157);
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+
+h1 {
+    color: rgb(13, 170, 157);
+    text-align: center;
+    font-size: 50px;
+    letter-spacing:5px;
+    font-family: "Roboto Mono";
+}
+.blue_overline_text {
+    color: blue;
+    text-decoration: overline;
+}
+#green_underline_text {
+    color: rgb(84, 226, 13);
+    text-decoration: underline;
+    font-size: 26px;
+}
+#solidWords {
+    color: rgb(1, 1, 1);
+    font-size: 26px;
+    font-family: "Roboto Mono";
+}
+
+#boldBox {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align:center;
+    padding:12px 24px;
+    letter-spacing:5px;
+    text-align:middle;
+    background: rgb(0, 0, 0); 
+    border: 1px solid #000000; 
+    margin: 12px;
+    position:absolute;top:155%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+    font-family: "Roboto Mono";
+}
+
+
+.back1 {
+    background-image: url("back1.jpeg");
+    background-color: transparent;
+    background-position: center;
+  }
+
 .parallax {
-    background-image: url("download.jpeg");
+    background-image: url("parallax1.jpeg");
   
-    min-height: 500px;
+    min-height: 300px;
   
     background-attachment: fixed;/*Creates the parallax effect by keeping the picture fixed*/
     background-position: center;
@@ -18,31 +74,12 @@
     background-size: cover;
   }
 
-.header{
-    position: relative;
-    padding-bottom: 50px;
-}
-.header p{
-    margin-bottom: 50px;
-    font-weight: 500;
-}
-
-.header h1{
-    margin-bottom: 50px;
-    font-weight: 800;
-}
-.back1{
-    background-image: url("back1.jpeg");
-    background-color: transparent;
-    background-position: center;
-}
-
 .container{
     display: flex;
 }
 
 #solidWords {
-    color: rgb(13, 170, 157);
+    color: rgb(1, 1, 1);
     font-size: 26px;
     font-family: "Roboto Mono";
 }
